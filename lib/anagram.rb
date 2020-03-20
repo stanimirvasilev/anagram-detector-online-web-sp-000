@@ -11,7 +11,7 @@ class Anagram
    
   def match(array)
    #take in an array and return all matches in an array, if no matches exist, it should return an empty array.
-  array.
+  array.each {  |string| string.split("").sort == @word.split("").sort }
     
   end
   
